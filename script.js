@@ -201,8 +201,26 @@ console.log(markHigherBMI);
 
 // Coding Challenge #2
 
-if (markBMI > johnBMI) {
-    console.log(`Mark's BMI (${markBMI}) is higher than John's BMI (${johnBMI})`);
-} else {
-    console.log(`Mark's BMI (${markBMI}) is smaller than John's BMI (${johnBMI})`)
-}
+// if (markBMI > johnBMI) {
+//     console.log(`Mark's BMI (${markBMI}) is higher than John's BMI (${johnBMI})`);
+// } else {
+//     console.log(`Mark's BMI (${markBMI}) is smaller than John's BMI (${johnBMI})`)
+// }
+
+// =============================================== //
+
+const inputYear = '1991';
+
+console.log(Number(inputYear), inputYear);
+
+console.log(Number(inputYear) + 18);
+
+// =============================================== //
+
+// Type conversion and coercion assignment
+
+console.log('9' - '5', '19' - '13' + '17', '19' - '13' + 17, '123' < 57, 5 + 6 + '4' + 9 - 4 - 2);
+
+// predictions: 4 617 23 false 1143
+
+// =============================================== //
