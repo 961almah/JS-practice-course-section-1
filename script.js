@@ -16,15 +16,19 @@
 // let myFirstJob = 'waiter';
 // let myCurrentJob = 'programmer';
 
+// =============================================== //
+
 // // Values and Variables Assignment:
 
-const country = "USA"
-const continent = 'North America'
-let population = 300;
+// const country = "USA"
+// const continent = 'North America'
+// let population = 300;
 
 // console.log(country);
 // console.log(continent);
 // console.log(population);
+
+// =============================================== //
 
 // let javaScriptIsFun = true;
 // console.log(javaScriptIsFun);
@@ -37,25 +41,30 @@ let population = 300;
 // javaScriptIsFun = 'YES!';
 // console.log(typeof javaScriptIsFun);
 
+// =============================================== //
+
 // Data Types Assignment
 
-let isIsland = false;
-let language;
+// let isIsland = false;
+// let language;
 
-console.log(typeof isIsland);
-console.log(typeof population);
-console.log(typeof country);
-console.log(typeof language);
+// console.log(typeof isIsland);
+// console.log(typeof population);
+// console.log(typeof country);
+// console.log(typeof language);
 
-let age = 22;
-age = 23;
+// =============================================== //
 
-const birthYear = 1998;
+// let age = 22;
+// age = 23;
+
+// const birthYear = 1998;
 
 // Let, Const, and Var Assignment
 
-language = 'English';
+// language = 'English';
 
+// =============================================== //
 
 // const now = 2021
 // const ageAli = now - 1998;
@@ -70,6 +79,7 @@ language = 'English';
 
 // console.log(firstName + ' ' + lastName);
 
+// =============================================== //
 
 // let x = 10 + 5
 
@@ -83,6 +93,8 @@ language = 'English';
 // console.log(ageAli > ageJiana);
 // console.log(ageJiana >= 20);
 
+// ================================================//
+
 // const isFullAge = ageJiana >= 20 // Boolean
 // console.log(isFullAge);
 
@@ -91,19 +103,24 @@ language = 'English';
 // const averageAge = (ageAli + ageJiana) / 2
 // console.log(ageAli, ageJiana, averageAge);
 
+// =============================================== //
+
 // Basic operators Assignment
 
-let halfPopulation = population / 2;
+// let halfPopulation = population / 2;
 
-population++;
+// population++;
 
-finnishPopulation = 6;
+// finnishPopulation = 6;
 
-console.log(population > finnishPopulation);;
+// console.log(population > finnishPopulation);;
 
-let portugalDescription = 'Portugal is in Europe, and its 11M people speak Portuguese';
+// let portugalDescription = 'Portugal is in Europe, and its 11M people speak Portuguese';
 
-console.log(halfPopulation, population, portugalDescription);
+// console.log(halfPopulation, population, portugalDescription);
+// 
+
+// =============================================== //
 
 // Coding Challenge #1 
 
@@ -132,3 +149,60 @@ console.log(johnBMI);
 markHigherBMI = markBMI > johnBMI;
 
 console.log(markHigherBMI);
+
+
+// ==============================================//
+
+
+
+// const firstName = 'Ali'
+// const job = 'programmer'
+// const birthYear = 1998;
+// const year = 2021
+
+// const ali = "I'm " + firstName + ', a ' + (year - birthYear) + ' year old ' + job + '!';
+
+// console.log(ali);
+
+// const aliNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`
+
+// console.log(aliNew);
+
+// =============================================== //
+
+// String and Template literals: Not doing the assignment
+
+// const age = 15;
+
+// if (age >= 18) {
+//     console.log(`Sarah can get her driver's license 🚗`);
+// } else {
+//     const yearsLeft = 18 - age;
+//     console.log(`Sarah needs to wait ${yearsLeft} more years before getting it.`);
+// }
+
+// console.log(age);
+
+// birthYear = 1998;
+
+// let century;
+
+// if (birthYear <= 2000) {
+//     century = 20;
+// } else {
+//     century = 21;
+// }
+
+// console.log(century);
+
+// =============================================== //
+
+// Taking Decisions Assignment: : Not doing the assignment
+
+// Coding Challenge #2
+
+if (markBMI > johnBMI) {
+    console.log(`Mark's BMI (${markBMI}) is higher than John's BMI (${johnBMI})`);
+} else {
+    console.log(`Mark's BMI (${markBMI}) is smaller than John's BMI (${johnBMI})`)
+}
