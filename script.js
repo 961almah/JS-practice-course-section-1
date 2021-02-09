@@ -376,13 +376,16 @@ HINT: Value X is between 50 and 300, if it's >= 50 && <= 300 😉
 GOOD LUCK 😀
 */
 
-const bill = 430;
+// Code Challenge #4
+// const bill = 430;
 
-const tip = bill >= 50 <= 300 ? bill * (15 / 100) : bill * (20 / 100);
+// const tip = bill >= 50 <= 300 ? bill * (15 / 100) : bill * (20 / 100);
 
-const value = bill + tip;
+// const value = bill + tip;
 
-console.log(bill);
-console.log(tip);
-console.log(value);
+// console.log(bill);
+// console.log(tip);
+// console.log(value);
+
+// =============================================== //
 
